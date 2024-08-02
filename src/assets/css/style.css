@@ -1,0 +1,76 @@
+@import "./colors.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1 {
+    @apply text-5xl font-montserrat font-semibold;
+  }
+
+  h2 {
+    @apply text-4xl font-semibold font-montserrat;
+  }
+
+  h3 {
+    @apply text-3xl font-semibold font-montserrat;
+  }
+  h4 {
+    @apply text-2xl font-semibold font-montserrat;
+  }
+
+  h5 {
+    @apply text-xl font-semibold;
+  }
+}
+
+@layer components {
+  .button {
+    @apply bg-secondary text-primary rounded-full py-3 px-5 hover:bg-primary/10 hover:text-secondary cursor-pointer font-bold transition-all duration-200 ease-in;
+  }
+  .link {
+    @apply cursor-pointer hover:text-purple-500  transition-all duration-200 ease-in;
+  }
+}
+.app {
+  @apply font-montserrat bg-main-bg bg-no-repeat bg-cover transition-all duration-200 ease-in;
+}
+
+.container {
+  @apply mx-auto max-w-screen-lg py-6;
+}
+.container-header {
+  @apply mx-auto max-w-screen-lg;
+}
+/* .page {
+  @apply bg-main-bg bg-no-repeat bg-center bg-[length:600%_600%];
+} */
+html {
+  scroll-behavior: smooth;
+}
+
+/* .page {
+  background: linear-gradient(230deg, #70789d, #60b3bf, #cfd4e6);
+  background-size: 600% 600%;
+
+  -webkit-animation: AnimationName 0s ease infinite;
+  -moz-animation: AnimationName 0s ease infinite;
+  animation: AnimationName 0s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+  0%{background-position:0% 83%}
+  50%{background-position:100% 18%}
+  100%{background-position:0% 83%}
+}
+@-moz-keyframes AnimationName {
+  0%{background-position:0% 83%}
+  50%{background-position:100% 18%}
+  100%{background-position:0% 83%}
+}
+@keyframes AnimationName {
+  0%{background-position:0% 83%}
+  50%{background-position:100% 18%}
+  100%{background-position:0% 83%}
+} */
