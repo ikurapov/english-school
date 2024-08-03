@@ -19,7 +19,7 @@
         class="-rotate-3 w-3/4 flex justify-start py-6 px-10 static flex items-center bg-secondary/50 rounded-full"
       >
         <img
-          class="absolute bottom-50 right-[-70px] w-40"
+          class="absolute bottom-50 right-[-70px] w-40 max-lg:hidden"
           src="@assets/img/work.png"
           alt="work"
         />
@@ -29,7 +29,7 @@
         class="rotate-6 flex justify-end w-3/4 py-6 px-4 static flex items-center bg-secondary/50 rounded-full"
       >
         <img
-          class="absolute bottom-50 left-[-60px] w-40"
+          class="absolute bottom-50 left-[-60px] w-40 max-lg:hidden"
           src="@assets/img/book.png"
           alt="work"
         />
@@ -40,7 +40,7 @@
       >
         <p class="">Для путешествий</p>
         <img
-          class="absolute bottom-50 right-[-140px] w-60"
+          class="absolute bottom-50 right-[-140px] w-60 max-xl:hidden"
           src="@assets/img/fly.png"
           alt="work"
         />
